@@ -17,3 +17,10 @@ Backend & Frontend Integration: Structured and managed backend and frontend file
 Continuous Improvement: Regularly enhanced application features and refactored code for better performance and maintainability.
 
 Technologies used: Nodejs/Expressjs, Reactjs, MongoDB, Redux toolkit, Apexcharts
+
+-----------------------------------------------------------
+git clone https://github.com/phantu820/my-ecommerce-v2.git
+
+cd backend folder -> npm i -> npm run dev
+
+cd frontend -> npm i -> npm run dev
