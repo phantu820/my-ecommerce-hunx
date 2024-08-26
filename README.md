@@ -19,7 +19,7 @@ Continuous Improvement: Regularly enhanced application features and refactored c
 Technologies used: Nodejs/Expressjs, Reactjs, MongoDB, Redux toolkit, Apexcharts
 
 -----------------------------------------------------------
-git clone https://github.com/phantu820/my-ecommerce-v2.git
+git clone https://github.com/phantu820/pan-ecommerce.git
 
 cd backend folder -> npm i -> npm run dev
 
