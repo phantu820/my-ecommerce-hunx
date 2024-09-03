@@ -54,7 +54,9 @@ const Navigation = () => {
           to="/"
           className="flex items-center transition-transform transform hover:translate-x-2"
         >
-          <AiOutlineHome className="mr-2 mt-[3rem]" size={26} />
+          <div className="flex items-center transition-transform transform hover:translate-x-2">
+
+          <AiOutlineHome className="mr-2 mt-[3rem]" size={26} /></div>
           <span className="hidden nav-item-name mt-[3rem]">HOME</span>{" "}
         </Link>
 
@@ -62,7 +64,9 @@ const Navigation = () => {
           to="/shop"
           className="flex items-center transition-transform transform hover:translate-x-2"
         >
-          <AiOutlineShopping className="mr-2 mt-[3rem]" size={26} />
+          <div className="flex items-center transition-transform transform hover:translate-x-2">
+
+          <AiOutlineShopping className="mr-2 mt-[3rem]" size={26} /></div>
           <span className="hidden nav-item-name mt-[3rem]">SHOP</span>{" "}
         </Link>
 
@@ -175,6 +179,7 @@ const Navigation = () => {
 
             <li>
               <Link to="/profile" className="block px-4 py-2 hover:bg-gray-100">
+              
                 Profile
               </Link>
             </li>
@@ -193,9 +198,12 @@ const Navigation = () => {
             <li>
               <Link
                 to="/login"
-                className="flex items-center mt-5 transition-transform transform hover:translate-x-2"
+                className="flex items-center mt-5 transi
+                tion-transform transform hover:translate-x-2"
               >
-                <AiOutlineLogin className="mr-2 mt-[4px]" size={26} />
+          <div className="flex justify-center items-center transition-transform transform hover:translate-x-2">
+
+                <AiOutlineLogin className="mr-2 mt-[4px]" size={26} /></div>
                 <span className="hidden nav-item-name">LOGIN</span>
               </Link>
             </li>
@@ -204,7 +212,9 @@ const Navigation = () => {
                 to="/register"
                 className="flex items-center mt-5 transition-transform transform hover:translate-x-2"
               >
-                <AiOutlineUserAdd size={26} />
+          <div className="flex justify-center items-center transition-transform transform hover:translate-x-2">
+
+                <AiOutlineUserAdd size={26} /></div>
                 <span className="hidden nav-item-name">REGISTER</span>
               </Link>
             </li>

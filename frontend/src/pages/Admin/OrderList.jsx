@@ -32,7 +32,7 @@ const OrderList = () => {
             </tr>
           </thead>
 
-          <tbody>
+          <tbody className="border">
             {orders.map((order) => (
               <tr key={order._id}>
                 <td>

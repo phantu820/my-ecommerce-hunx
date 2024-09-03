@@ -67,8 +67,8 @@ const ProductList = () => {
   };
 
   return (
-    <div className="container xl:mx-[9rem] sm:mx-[0]">
-      <div className="flex flex-col md:flex-row">
+    <div className="container xl:ml-[5rem] sm:mx-[5rem] overflow-x-hidden">
+      <div className="flex flex-col md:flex-row overflow-x-hidden">
         <AdminMenu />
         <div className="md:w-3/4 p-3">
           <div className="h-12">Create Product</div>
@@ -84,7 +84,7 @@ const ProductList = () => {
           )}
 
           <div className="mb-3">
-            <label className="border text-white px-4 block w-full text-center rounded-lg cursor-pointer font-bold py-11">
+            <label className="border text-white px-4 block w-full text-center rounded-lg cursor-pointer font-bold py-8">
               {image ? image.name : "Upload Image"}
 
               <input
@@ -108,7 +108,7 @@ const ProductList = () => {
                   onChange={(e) => setName(e.target.value)}
                 />
               </div>
-              <div className="two ml-10 ">
+              <div className="two xl:ml-10 ">
                 <label htmlFor="name block">Price</label> <br />
                 <input
                   type="number"
@@ -128,7 +128,7 @@ const ProductList = () => {
                   onChange={(e) => setQuantity(e.target.value)}
                 />
               </div>
-              <div className="two ml-10 ">
+              <div className="two xl:ml-10 ">
                 <label htmlFor="name block">Brand</label> <br />
                 <input
                   type="text"
@@ -160,7 +160,7 @@ const ProductList = () => {
                 />
               </div>
 
-              <div>
+              <div className="pl-1">
                 <label htmlFor="">Category</label> <br />
                 <select
                   placeholder="Choose Category"

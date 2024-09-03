@@ -133,7 +133,7 @@ const AdminProductUpdate = () => {
 
   return (
     <>
-      <div className="container  xl:mx-[9rem] sm:mx-[0]">
+      <div className="container xl:ml-[5rem] sm:mx-[5rem] overflow-x-hidden">
         <div className="flex flex-col md:flex-row">
           <AdminMenu />
           <div className="md:w-3/4 p-3">
@@ -144,7 +144,7 @@ const AdminProductUpdate = () => {
                 <img
                   src={image}
                   alt="product"
-                  className="block mx-auto w-full h-[40%]"
+                  className="block mx-auto max-w-96 max-h-96"
                 />
               </div>
             )}
@@ -228,7 +228,7 @@ const AdminProductUpdate = () => {
                   />
                 </div>
 
-                <div>
+                <div className="p-1">
                   <label htmlFor="">Category</label> <br />
                   <select
                     placeholder="Choose Category"
@@ -253,7 +253,7 @@ const AdminProductUpdate = () => {
                 </button>
                 <button
                   onClick={handleDelete}
-                  className="py-4 px-10 mt-5 rounded-lg text-lg font-bold  bg-pink-600"
+                  className="py-4 px-10 mt-5 rounded-lg text-lg font-bold  bg-red-600"
                 >
                   Delete
                 </button>
